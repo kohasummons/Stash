@@ -1,9 +1,16 @@
-Sometimes, while building your app, you would want to allow certain actions to happen only when the user is connected to the internet. 
-A relatable example of an app that does this is Figma. Whenever figma detects that you are no longer connected to the internet, it is quick to inform you that whatever changes you make right now won't be saved cause you are disconnected. That nudges you to check your internet connection. Subtly providing a good user experiece.	
-This tiny super feature can help your app in several ways one of which is providing a good user experiece for the user by alerting them when there might be issues with their connectivity. Saving them a bit of head scracthing down the line when they find out this.
-Also, by checking if there is internet connectivity, you can write checks to prevent some functions to be called if the user isn't online. Thereby keeping your app on the good side of the perfomance scale.
-In this article, we would be implement a network status checker that detects when our vue app is connected or disconnected from the internet and in turn we will use this information to perform an action.	
-## Table of Content
+# Detecting Internet Connectivity in your vue apps
+
+- Sometimes, while building your app, you would want to allow certain actions to happen only when the user is connected to the internet. 
+
+	A relatable example of an app that does this is Figma. Whenever figma detects that you are no longer connected to the internet, it is quick to inform you that whatever changes you make right now won't be saved cause you are disconnected. That nudges you to check your internet connection. Subtly providing a good user experiece.
+	
+	This tiny super feature can help your app in several ways one of which is providing a good user experiece for the user by alerting them when there might be issues with their connectivity. Saving them a bit of head scracthing down the line when they find out this.
+	
+	Also, by checking if there is internet connectivity, you can write checks to prevent some functions to be called if the user isn't online. Thereby keeping your app on the good side of the perfomance scale.
+	
+	In this article, we would be implement a network status checker that detects when our vue app is connected or disconnected from the internet and in turn we will use this information to perform an action.
+	
+	## Table of Content
 	-  What is vue?
 	- Project setup  
 	- Craft a tiny demo app  
